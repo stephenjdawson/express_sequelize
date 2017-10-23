@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "admin",
+    "database": "express_sequelize_development",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "admin",
+    "database": "express_sequelize_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "admin",
+    "database": "express_sequelize_production",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
